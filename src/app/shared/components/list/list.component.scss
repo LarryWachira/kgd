@@ -1,3 +1,22 @@
+@import '../../../../assets/scss/components/card';
+
 .card {
     width: 33.333%;
+    margin-bottom: 2rem;
+    margin-right: 15px;
 }
+
+.flex-cont{
+    display: flex;
+    align-items: center;
+}
+
+.album{
+    display: inline-block;
+    @extend .full-width;
+    background-image: url('../../../../assets/images/for_honor.png');
+    @include pad-box(100px,0);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

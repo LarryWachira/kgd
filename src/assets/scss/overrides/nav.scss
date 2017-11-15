@@ -6,5 +6,6 @@ nav {
 footer{
     background-color: $black;
     display: inline-block;
+    @extend .full-width;
     @include pad-box(15px, 0px);
 }

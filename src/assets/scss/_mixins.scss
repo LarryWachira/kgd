@@ -12,3 +12,7 @@
     padding-left: $horizontal / 2;
     padding-right: $horizontal / 2;
 }
+
+@mixin margin-top($margin) {
+    margin-top: $margin;
+}
