@@ -1,4 +1,5 @@
 @import '../../../../assets/scss/components/card';
+@import '../../../../assets/scss/mixins';
 
 .card {
     width: 33.333%;
@@ -13,6 +14,12 @@
 
 .courosel{
     margin-left: -15px;
+    @include border-radius(1px);
+}
+
+.courosel-cont{
+    padding-top: 20px;
+    margin-bottom: 50px;
 }
 
 .album{
