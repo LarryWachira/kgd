@@ -1,0 +1,6 @@
+@import '../../../../assets/scss/components/card';
+
+app-header{
+    @extend .full-width;
+    display: inline-block;
+}
