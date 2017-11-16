@@ -30,6 +30,8 @@
 .album{
     display: inline-block;
     @extend .full-width;
+    background: url(../../../../assets/images/Middle-Earth-Shadow-of-War-Details.jpg)
+        center top no-repeat fixed #000 !important;
     /*padding-top: 300px;
     height: 1080px;
     overflow-y: scroll;*/
