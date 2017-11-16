@@ -10,6 +10,7 @@
 .flex-cont{
     display: flex;
     align-items: center;
+    padding-left: 15px;
 }
 
 .courosel{
@@ -22,12 +23,15 @@
     margin-bottom: 50px;
 }
 
+.jumbotron{
+    margin-bottom: 0px;
+}
+
 .album{
     display: inline-block;
     @extend .full-width;
-    background-image: url('../../../../assets/images/for_honor.png');
-    @include pad-box(100px,0);
-    background-size: cover;
-    background-repeat: no-repeat;
+    /*padding-top: 300px;
+    height: 1080px;
+    overflow-y: scroll;*/
 }
 
