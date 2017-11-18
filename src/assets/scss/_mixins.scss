@@ -16,3 +16,7 @@
 @mixin margin-top($margin) {
     margin-top: $margin;
 }
+
+.flex{
+    display: flex;
+}
