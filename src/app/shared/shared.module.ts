@@ -9,6 +9,7 @@ import { SharedRoutingModule } from './shared-routing.module';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ListComponent } from './components/list/list.component';
+import { ListItemComponent } from './components/list-item/list-item.component';
 
 @NgModule({
   imports: [
@@ -20,6 +21,6 @@ import { ListComponent } from './components/list/list.component';
     SharedRoutingModule
   ],
   exports: [FooterComponent, HeaderComponent, ListComponent],
-  declarations: [FooterComponent, HeaderComponent, ListComponent]
+  declarations: [FooterComponent, HeaderComponent, ListComponent, ListItemComponent]
 })
 export class SharedModule { }

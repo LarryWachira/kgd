@@ -13,6 +13,17 @@
     margin-left: -15px;
     padding:2rem 0rem 4rem 0rem;
     @include border-radius(1px);
+    .detail-cont{
+        margin-top: 25px;
+    }
+    .title{
+        font-size: 1.15rem;
+        font-size: 600;
+        @extend .text-left;
+        &.half{
+            width: 50%;
+        }
+    }
 }
 
 .courosel-cont{
@@ -47,7 +58,7 @@
             }
         }
     }
-    .card {
+    .card, list-item {
         width: 33.333%;
         margin-bottom: 2rem;
         margin-right: 15px;
