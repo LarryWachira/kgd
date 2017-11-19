@@ -1,11 +1,7 @@
 @import '../../../../assets/scss/components/card';
 @import '../../../../assets/scss/mixins';
+@import '../../../../../node_modules/bootstrap/scss/bootstrap';
 
-.card {
-    width: 33.333%;
-    margin-bottom: 2rem;
-    margin-right: 15px;
-}
 
 .flex-cont{
     display: flex;
@@ -15,6 +11,7 @@
 
 .courosel{
     margin-left: -15px;
+    padding:2rem 0rem 4rem 0rem;
     @include border-radius(1px);
 }
 
@@ -32,5 +29,28 @@
     @extend .full-width;
     background: url(../../../../assets/images/Middle-Earth-Shadow-of-War-Details.jpg)
         center top no-repeat fixed #000 !important;
+    .carousel-cont{
+        width:100%;
+        margin-top: 15px;
+        display: inline-block;
+        height:40rem !important;
+        @extend .box-shadow;
+        carousel{
+            slide{
+                .img-carousel{
+                    @extend .full-width;
+                    height: 38rem;
+                }
+                .img-cont{
+                    @extend .full-width;
+                }
+            }
+        }
+    }
+    .card {
+        width: 33.333%;
+        margin-bottom: 2rem;
+        margin-right: 15px;
+    }
 }
 
